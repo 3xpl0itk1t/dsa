@@ -13,7 +13,7 @@ It is a function which gives us relationship about the time as it grows when the
     
 - Here you can see the actual time taken will be different in different systems, but we are only interested in the relationship of how the time is growing vs the size i.e in this case it is growing linearly. That is why we ignore constants.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f61e4bbc-7564-4f27-a622-4251dffdf7d2/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f61e4bbc-7564-4f27-a622-4251dffdf7d2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102350Z&X-Amz-Expires=86400&X-Amz-Signature=cb11ece6426e4a1717f97cce15cfda12ebad796eaac1fafc79d546694bee0ead&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 
 ### Notations
@@ -24,7 +24,7 @@ It is a function which gives us relationship about the time as it grows when the
     
     You can also say like `f(N) < C1*g(N)`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ecd9412-b539-4f27-a925-a56debb19228/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5ecd9412-b539-4f27-a925-a56debb19228/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102459Z&X-Amz-Expires=86400&X-Amz-Signature=bf803e69c244a9198008f621b3570f6da48680fa1d1b80eacfb5d204a7f8cd71&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 2. `Big-Omega`(Represents lower-bound)
     
@@ -32,30 +32,30 @@ It is a function which gives us relationship about the time as it grows when the
     
     You can also say like `f(N) > C1*g(N)`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea6e13b7-15be-4027-89eb-78600f7e198b/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea6e13b7-15be-4027-89eb-78600f7e198b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102606Z&X-Amz-Expires=86400&X-Amz-Signature=4ca79e4056b316f83bc94e4c3ea55e47f16b583c99f01f22d4cf426dab05c01a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 3. `Theta`(Combining both)
     
     You can also say like `f(N) < C1*g(N) and f(N) > C2*g(N)`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4feaa73f-7af7-4e68-9bff-a84d7042d26c/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4feaa73f-7af7-4e68-9bff-a84d7042d26c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102628Z&X-Amz-Expires=86400&X-Amz-Signature=bad49b54d35984025c687240cbe1311d7b64e2f98711cb8ff056e86292ff75dc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 4. `Little-Oh`
     
     This basically represents the upper bound only but unlike `BigO` , strictly less time can only be possible i.e not equal to the time-complexity we know.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfda3d4f-6e5e-4155-abea-0aa08fe13de4/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bfda3d4f-6e5e-4155-abea-0aa08fe13de4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102652Z&X-Amz-Expires=86400&X-Amz-Signature=373690c77c35cb131c3eb04af80fa21b77d6a298904ca045e2fe4d2ecdaf9275&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 5. `Little-Omega`
     
     This basically represents the lower bound only but unlike `Big-Omega` , strictly more time can only be possible i.e not equal to the time-complexity we know.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31c1bf21-9cf7-4f83-b681-865ba3c05ad6/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bfda3d4f-6e5e-4155-abea-0aa08fe13de4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102716Z&X-Amz-Expires=86400&X-Amz-Signature=c9f25797522e1fa2d3ee651d8a42b7f987ec969992baa393bbe20fb197666ae7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 
 ### Space Complexity or Auxillary Space
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49f92307-bf56-44a8-ab84-206041f0bfb5/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/31c1bf21-9cf7-4f83-b681-865ba3c05ad6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220727T102735Z&X-Amz-Expires=86400&X-Amz-Signature=2f2203fb343acf79c2035d0c854f2c18547e5e89f58fd74dab320fc1fae2716f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 | Algorithms | Best Case | Worst Case | Average Case |
 | --- | --- | --- | --- |
@@ -143,6 +143,6 @@ The heapsort first builds a max-heap on the input array. In max heap, the maximu
 
 **Time Complexity** : O(n log( n))
 
-**Space Complexity** : ****O(1)
+**Space Complexity** :  O(1)
 
 ## **6. Cyclic Sort**
